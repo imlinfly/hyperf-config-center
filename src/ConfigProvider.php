@@ -20,7 +20,7 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config of ',
-                    'source' => __DIR__ . '/../publish/captcha.php',
+                    'source' => __DIR__ . '/../publish/config_center.php',
                     'destination' => BASE_PATH . '/config/autoload/config_center.php',
                 ],
             ],
